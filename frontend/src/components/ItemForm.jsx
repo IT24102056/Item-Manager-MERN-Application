@@ -36,7 +36,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <input name="category" value={formData.category} onChange={handleChange} required />
 
       <label>Model Number</label>
-      <input name="category" value={formData.model_number} onChange={handleChange} required />
+      <input name="model_number" value={formData.model_number} onChange={handleChange} required />
 
 
       <label>Price</label>
